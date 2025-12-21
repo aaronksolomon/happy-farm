@@ -1,0 +1,26 @@
+[project]
+name = "happy-farm"
+version = "0.1.0"
+description = "Analytics, scheduling, and planning tools for Deer Park Happy Farm"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+    "xlsxwriter>=3.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.0.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "ipykernel>=6.25.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["scripts"]
