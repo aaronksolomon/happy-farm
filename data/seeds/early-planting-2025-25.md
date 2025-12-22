@@ -1,8 +1,10 @@
-# Winter–Spring Planting Plan (Zone 10a • Escondido, CA)
+# Winter–Spring Planting Plan
+
+**Locale:** Zone 10a - Escondido, CA - 646 ft.
 
 **Date:** 2025-12-20  
 
-**Constraints you gave**
+**Constraints:**
 
 - Earliest **seedling start**: **Dec 27**
 - Earliest **direct sow in beds**: **Jan 10–15**
@@ -59,7 +61,7 @@ Typical ranges; adjust for light/temp/tray size.
 - Onions (Red Rock, Maragogi)
 - Broccoli (Waltham 29, Steve’s Tender, Di Cocco, Belstar, Happy Rich)
 - Cabbage / Asian brassicas (Mini Napa, Red Acre, Pak Choi, Bronco, Bilko)
-- Cauliflower (Snowball, Violet Queen) **if you want it**
+- Cauliflower (Snowball, Violet Queen)
 - Kale (Black Magic)
 - Lettuce single-variety transplants (e.g., Parris Island Cos)
 - Swiss chard *(optional as transplant)*

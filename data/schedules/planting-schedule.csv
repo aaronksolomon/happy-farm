@@ -1,0 +1,4 @@
+task_type,crop,target_date,prep_method,prep_duration_weeks,prep_start_date,notes
+cover_crop_termination,Row 1-6 (for tomatoes),2026-02-25,silage_tarp,6,2026-01-14,"Opaque silage tarp; 5-6 week termination"
+cover_crop_termination,Late-seeded rows,2026-02-25,clear_plastic,1,2026-02-18,"Fast termination (days); warms soil for tomatoes"
+transplant,Tomatoes,2026-02-25,,,,"Transplant into prepared rows"

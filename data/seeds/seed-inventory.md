@@ -69,7 +69,8 @@
   - [Miami Pelleted](https://sandiegoseedcompany.com/product/vegetables/carrots/organic-miami-pelleted-carrot-seeds/) (SDSC) - organic  
   - [Nantes Coreless](https://sandiegoseedcompany.com/product/vegetables/carrots/organic-nantes-coreless-carrot-seeds/) (SDSC) - organic  
   - [Danvers](https://sandiegoseedcompany.com/product/vegetables/carrots/organic-danvers-carrot-seeds/) (SDSC) - organic  
-  - [Bengala F1](https://www.johnnyseeds.com/vegetables/carrots/storage-carrots/bengala-organic-f1-carrot-seed-5176G.html) (JS) - *shopper requested*  
+  - [Bengala F1](https://www.johnnyseeds.com/vegetables/carrots/storage-carrots/bengala-organic-f1-carrot-seed-5176G.html) (JS) - *shopper requested* - currently out of stock
+  - [Bolero F1](https://www.johnnyseeds.com/vegetables/carrots/storage-carrots/bolero-f1-carrot-seed-216.html) (JS) - *replacement for Bengala*
 
 - **Radishes** *(Water: Low–Medium • Sow: Sep–Mar; fast crop)*  
   - [French Breakfast](https://sandiegoseedcompany.com/product/vegetables/radishes/french-breakfast-radish-seeds/) (SDSC)  
@@ -80,6 +81,9 @@
 ---
 
 #### Leafy Greens (**Medium–High**, with Chard = **Medium**)
+
+- **Arugula** *(Water: Medium • Sow: Sep–Mar; quick-growing, bolts in heat)*
+  - [Wild Arugula](https://sandiegoseedcompany.com/product/herbs/wild-arugula-seeds/) (SDSC)
 
 - **Lettuce (Single)** *(Water: Medium–High • Sow: Sep–Mar; protect from heat spikes)*  
   - [Parris Island Cos Romaine](https://sandiegoseedcompany.com/product/vegetables/greens/parris-island-cos-romaine-lettuce-seeds/) (SDSC)  
