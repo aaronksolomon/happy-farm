@@ -29,7 +29,8 @@ happy-farm/
 ### Shared Drive Location
 
 **Local mount path**:
-```
+
+```text
 /Users/phapman/Library/CloudStorage/GoogleDrive-aaron.kyle.solomon@gmail.com/Shared drives/happy-farm-data
 ```
 
@@ -41,15 +42,19 @@ When exporting documents for stakeholder review:
 
 1. Generate/update the document in the local `data/` directory (markdown format preferred)
 2. Export to DOCX using pandoc:
+
    ```bash
    pandoc <source.md> -o <output.docx>
    ```
+
 3. Copy to Google Drive shared folder:
+
    ```bash
    cp <output.docx> "/Users/phapman/Library/CloudStorage/GoogleDrive-aaron.kyle.solomon@gmail.com/Shared drives/happy-farm-data/"
    ```
 
 **Example**:
+
 ```bash
 # Export seed inventory
 pandoc data/seeds/seed-inventory.md -o data/seeds/seed-inventory.docx
@@ -69,11 +74,13 @@ cp data/seeds/seed-inventory.docx "/Users/phapman/Library/CloudStorage/GoogleDri
 ## Project Context
 
 ### Location Details
+
 - **Zone**: 10a
 - **Region**: Escondido, CA (North San Diego County)
 - **Climate**: Hot, dry summers; mild winters; coastal/inland transition zone
 
 ### Primary Data Sources
+
 - **San Diego Seed Company** (SDSC) - local, regional varieties
 - **Johnny's Selected Seeds** (JS) - specialty and organic varieties
 
