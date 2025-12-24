@@ -1,0 +1,35 @@
+crop,variety,supplier,order_date,stock_quantity,season,water,sow,method,transplant_after,mature_after,rows/pattern,count_ft,count_sq_ft,lo_yield,hi_yield,harvest_info,packet_type,notes,url
+Poppies,California Yellow Poppy,SDSC,,,cool,low-medium,Sep–Jan,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/california-yellow-poppy-seeds/
+Poppies,Shirley Mix Poppy,SDSC,,,cool,low-medium,Sep–Jan,direct_sow,,,,,,,,,mixed,,https://sandiegoseedcompany.com/product/flowers/shirley-mix-poppy-seeds/
+Poppies (Mixed),California Formula Mix Poppy,SDSC,,,cool,low-medium,Sep–Jan,direct_sow,,,,,,,,,mixed,,https://sandiegoseedcompany.com/product/flowers/california-formula-mix-poppy-seeds/
+Other Cool Season Annuals,Bachelor Button,SDSC,,,cool,low-medium,Sep–Jan,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/bachelor-button-seeds/
+Other Cool Season Annuals,Larkspur - QIS Beeworthy Mix,SDSC,,,cool,low-medium,Sep–Jan,direct_sow,,,,,,,,,mixed,organic,https://sandiegoseedcompany.com/product/flowers/organic-qis-beeworthy-mix-larkspur/
+Other Cool Season Annuals,Nigella - Miss Jekyll,SDSC,,,cool,low-medium,Sep–Jan,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/miss-jekyll-nigella-seeds/
+Other Cool Season Annuals,Heirloom Sweet Pea Mix,SDSC,,,cool,low-medium,Sep–Jan,direct_sow,,,,,,,,,mixed,,https://sandiegoseedcompany.com/product/flowers/heirloom-sweet-pea-seed-mix/
+Calendula,Calendula - Alpha,JS,,,cool,medium,Sep–Jan,direct_sow,,,,,,,,,single,organic,https://www.johnnyseeds.com/herbs/calendula/alpha-organic-calendula-seed-2935.html
+Sunflowers,Chocolate Cherry,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/chocolate-cherry-sunflower-seeds/
+Sunflowers,Russian Mammoth,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,single,organic,https://sandiegoseedcompany.com/product/flowers/organic-russian-mammoth-sunflower-seeds/
+Sunflowers,Mexican Sunflower,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/mexican-sunflower-seeds/
+Zinnias,Benary's Giant,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/benarys-giant-zinnia-seeds/
+Zinnias,Dahlia Mix,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,mixed,,https://sandiegoseedcompany.com/product/flowers/dahlia-mix-zinnia-seeds/
+Cosmos,Sensation Mix,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,mixed,,https://sandiegoseedcompany.com/product/flowers/sensation-mix-cosmos-seeds/
+Cosmos,Candy Stripe,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/candy-stripe-cosmos-seeds/
+Marigolds,Sparky,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,single,organic,https://sandiegoseedcompany.com/product/flowers/organic-sparky-marigold-seeds/
+Marigolds,Queen Sophia,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,single,organic,https://sandiegoseedcompany.com/product/flowers/organic-queen-sophia-marigold-seeds/
+Other Annuals,Nasturtium - Alaska Mix,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,mixed,,https://sandiegoseedcompany.com/product/flowers/alaska-mix-nasturtium-seeds/
+Other Annuals,Strawflower - Apricot,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,single,organic,https://sandiegoseedcompany.com/product/flowers/organic-apricot-strawflower-seeds/
+Other Annuals,Gaillardia - Double Sunset,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,mixed,,https://sandiegoseedcompany.com/product/flowers/double-sunset-gaillardia-seeds/
+Other Annuals,Scabiosa - SoCal Mix,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,mixed,organic,https://sandiegoseedcompany.com/product/flowers/organic-socal-mix-scabiosa-seeds/
+Vines,Morning Glory - Color Mix,SDSC,,,warm,low-medium,Mar–Jun,direct_sow,,,,,,,,,mixed,,https://sandiegoseedcompany.com/product/flowers/color-mix-morning-glory-seeds/
+California Natives,Western Yarrow,SDSC,,,perennial,low,,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/western-yarrow-seeds/
+California Natives,Scarlet Flax,SDSC,,,perennial,low,,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/scarlet-flax-seeds/
+California Natives,Arroyo Lupine,SDSC,,,perennial,low,,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/arroyo-lupine-seeds/
+California Natives,California Blue Bell,SDSC,,,perennial,low,,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/california-blue-bell-wildflower-seeds/
+California Natives,Narrowleaf Milkweed,SDSC,,,perennial,low,,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/narrowleaf-milkweed-seeds/
+Other Perennials,Hollyhock - Halo,SDSC,,,perennial,low-medium,,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/halo-hollyhock-seeds/
+Other Perennials,Echinacea/Coneflower - Paradiso Tall Mix,JS,,,perennial,low-medium,,direct_sow,,,,,,,,,mixed,,https://www.johnnyseeds.com/flowers/echinacea-coneflower/paradiso-tall-mix-echinacea-seed-4919.html
+Other Perennials,Wild Bergamot/Monarda,JS,,,perennial,low-medium,,direct_sow,,,,,,,,,single,,https://www.johnnyseeds.com/flowers/monarda-bee-balm/wild-bergamot-monarda-seed-827.html
+Wildflower Mixes,Southwest Wildflower Mix,SDSC,,,perennial,low,,direct_sow,,,,,,,,,mixed,,https://sandiegoseedcompany.com/product/flowers/southwest-wildflower-seed-mix/
+Wildflower Mixes,Butterfly Garden Mix,SDSC,,,perennial,low,,direct_sow,,,,,,,,,mixed,,https://sandiegoseedcompany.com/product/flowers/butterfly-garden-seed-mix/
+Bee Balm,Bee Balm - Lemon Mint,SDSC,,,perennial,medium,,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/lemon-mint-bee-balm-seeds/
+Hyssop,Hyssop - Anise,SDSC,,,perennial,medium,,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/edible-flowers/hyssop-anise-seeds/

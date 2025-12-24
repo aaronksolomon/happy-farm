@@ -1,0 +1,34 @@
+crop,variety,supplier,order_date,stock_quantity,season,water,sow,method,transplant_after,mature_after,rows/pattern,count_ft,count_sq_ft,lo_yield,hi_yield,harvest_info,packet_type,notes,url
+Cilantro/Coriander,Leisure,SDSC,,,cool,medium,Sep–Mar,direct_sow,,,,,,1,1,,single,organic,https://sandiegoseedcompany.com/product/herbs/cilantro/organic-leisure-cilantro-seeds/
+Cilantro/Coriander,Calypso,JS,,,cool,medium,Sep–Mar,direct_sow,,,,,,1,1,,single,,https://www.johnnyseeds.com/herbs/cilantro-coriander/calypso-cilantro-coriander-seed-3803.html
+Parsley,Flat Leaf Italian,SDSC,,,cool,medium,Sep–Feb,direct_sow,,,,,,,,,single,,https://sandiegoseedcompany.com/product/herbs/flat-leaf-italian-parsley-seeds/
+Dill,Bouquet,SDSC,,,cool,medium,Sep–Feb,direct_sow,,,,,,,,,single,organic,https://sandiegoseedcompany.com/product/herbs/organic-bouquet-dill-seeds/
+Basil (Italian),Genovese,SDSC,,,warm,medium-high,Apr–Aug,transplant,,,,,,1,1,,single,organic,https://sandiegoseedcompany.com/product/herbs/basil/organic-genovese-basil-seeds/
+Basil (Italian),Prospera Italian Large Leaf DMR F1,JS,,,warm,medium-high,Apr–Aug,transplant,,,,,,1,1,,single,organic,https://www.johnnyseeds.com/herbs/basil/italian-large-leaf-basil/prospera-italian-large-leaf-dmr-ill2-organic-f1-basil-seed-4589G.html
+Basil (Asian),Sweet Thai,JS,,,warm,medium-high,Apr–Aug,transplant,,,,,,1,1,,single,,https://www.johnnyseeds.com/herbs/basil/asian-basil/sweet-thai-basil-seed-945.html
+Basil (Asian),Thai Thai Prospera Active DMR,JS,,,warm,medium-high,Apr–Aug,transplant,,,,,,1,1,,single,organic,https://www.johnnyseeds.com/herbs/basil/asian-basil/thai-thai-prospera-active-dmr-organic-basil-seed-4968G.html
+Basil (Asian),Everleaf Thai Towers,JS,,,warm,medium-high,Apr–Aug,transplant,,,,,,1,1,,single,,https://www.johnnyseeds.com/herbs/basil/asian-basil/everleaf-thai-towers-basil-seed-4308.html
+Holy Basil (Tulsi),Holy Basil Kapoor Tulsi,SDSC,,,warm,medium,Apr–Aug,transplant,,,,,,1,1,,single,organic,https://sandiegoseedcompany.com/product/herbs/basil/organic-holy-basil-kapoor-tulsi-seeds/
+Fennel,Finale,SDSC,,,cool,medium,Sep–Feb,direct_sow,,90,2,0.67,,,,,single,organic,https://sandiegoseedcompany.com/product/vegetables/fennel/organic-finale-fennel-seeds/
+Lavender,Lavender - English,SDSC,,,perennial,low,,perennial,,,,,,,,,single,,https://sandiegoseedcompany.com/product/flowers/english-lavender-seeds/
+Lavender,Lavender - Ellagance Purple,JS,,,perennial,low,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/lavender/ellagance-purple-lavender-seed-72.html
+Marjoram,Marjoram,SDSC,,,perennial,low,,perennial,,,,,,,,,single,organic,https://sandiegoseedcompany.com/product/herbs/organic-marjoram-seeds/
+Mexican Tarragon,Mexican Tarragon,SDSC,,,perennial,low,,perennial,,,,,,,,,single,,https://sandiegoseedcompany.com/product/herbs/mexican-tarragon-seeds/
+Oregano,Oregano,SDSC,,,perennial,low,,perennial,,,,,,,,,single,,https://sandiegoseedcompany.com/product/herbs/oregano-seeds/
+Rosemary,Rosemary - Primed,JS,,,perennial,low,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/rosemary/primed-rosemary-herb-seed-932E.html
+Sage,Sage - Broad Leaf,SDSC,,,perennial,low,,perennial,,,,,,,,,single,,https://sandiegoseedcompany.com/product/herbs/broad-leaf-sage-seeds/
+Thyme,Thyme - Summer,JS,,,perennial,low,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/thyme/summer-thyme-seed-2250.html
+Lemon Balm,Lemon Balm,SDSC,,,perennial,medium,,perennial,,,,,,,,,single,organic,https://sandiegoseedcompany.com/product/herbs/organic-lemon-balm-seeds/
+Shiso,Shiso - Bicolor,SDSC,,,perennial,medium,,perennial,,,,,,,,,single,,https://sandiegoseedcompany.com/product/herbs/bicolor-shisho-seeds/
+Shiso,Shiso - Red,JS,,,perennial,medium,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/shiso/red-shiso-herb-seed-937.html
+Chives,Chinese Leeks/Garlic Chives,JS,,,perennial,medium,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/chives/chinese-leeks-garlic-chives/chinese-leeks-garlic-chives-herb-seed-3299.html
+Chives,Purly Chive,JS,,,perennial,medium,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/chives/standard-chives/purly-chive-seed-793.html
+Lovage,Lovage,JS,,,perennial,medium,,perennial,,,,,,,,,single,organic,https://www.johnnyseeds.com/herbs/lovage/lovage-organic-herb-seed-927G.html
+Stevia,Stevia,JS,,,perennial,medium,,perennial,,,,,,,,,single,organic,https://www.johnnyseeds.com/herbs/stevia/stevia-organic-herb-seed-2305G.html
+Chamomile,Chamomile - Common,JS,,,perennial,medium,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/chamomile/common-chamomile-herb-seed-914.html
+Echinacea,Echinacea Purpurea,JS,,,perennial,medium,,perennial,,,,,,,,,single,organic,https://www.johnnyseeds.com/herbs/echinacea-coneflower/echinacea-purpurea-organic-echinacea-seed-956.html
+Angelica,Angelica,JS,,,perennial,medium,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/angelica/angelica-herb-seed-4550.html
+Caraway,Caraway - Arterner,JS,,,perennial,medium,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/caraway/arterner-caraway-seed-796.html
+Cumin,Cumin,JS,,,perennial,medium,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/herbs-for-salad-mix/cumin-herb-seed-2931.html
+Rue,Rue,JS,,,perennial,medium,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/rue/rue-herb-seed-974.html
+Mexican Mint Marigold,Mexican Mint Marigold,JS,,,perennial,medium,,perennial,,,,,,,,,single,,https://www.johnnyseeds.com/herbs/mexican-mint-marigold/mexican-mint-marigold-herb-seed-2273.html

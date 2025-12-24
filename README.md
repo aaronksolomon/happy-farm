@@ -38,7 +38,7 @@ python -m venv venv
 source venv/bin/activate  # or `venv\Scripts\activate` on Windows
 
 # Install core dependencies
-pip install pandas openpyxl jupyter matplotlib seaborn
+pip install pandas openpyxl jupyter matplotlib seaborn httpx beautifulsoup4 tenacity
 
 # Create directory structure
 mkdir -p data/{seeds,schedules,analytics}
@@ -72,6 +72,14 @@ df.to_excel('exports/tomato_varieties_2025.xlsx', index=False)
 ## Documentation
 
 - [ADR01: Workspace Architecture](docs/adr01-workspace-architecture.md) - Full rationale and design decisions
+- [ADR02: Plant Data Web Scraping Architecture](docs/adr/adr02-plant-data-web-scraping.md) - Hybrid SDSC/JS scraping plan
+
+## Plant Data Scraping
+
+- Enrich plant CSVs with supplier growing info using `scripts/scrape_plant_data.py`.
+- Example (cached dev run): `python3 scripts/scrape_plant_data.py --input data/plants/vegetable-data.csv --output data/plants/vegetable-data-enriched.csv --use-cache`
+- Use `--retry-failed` to re-run only rows previously marked as `failed`.
+- JS rows require `tnh-gen` from the `tnh-scholar` project on `PYTHONPATH`; SDSC rows rely only on `httpx`, `beautifulsoup4`, and `tenacity`.
 
 ## Tech Stack
 

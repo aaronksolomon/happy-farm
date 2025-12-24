@@ -1,0 +1,89 @@
+crop,variety,supplier,order_date,stock_quantity,season,water,sow,method,transplant_after,mature_after,rows/pattern,count_ft,count_sq_ft,lo_yield,hi_yield,harvest_info,packet_type,notes,url
+Broccoli,Waltham 29,SDSC,,,cool,medium-high,Aug–Feb,transplant,35,70,2,0.67,,1,1,,single,organic,https://sandiegoseedcompany.com/product/vegetables/broccoli/organic-waltham-29-broccoli-seeds/
+Broccoli,Steve's Tender Early Green,SDSC,,,cool,medium-high,Aug–Feb,transplant,35,70,2,0.67,,1,1,,single,organic,https://sandiegoseedcompany.com/product/vegetables/broccoli/organic-steves-tender-early-green-broccoli-seeds/
+Broccoli,Sprouting Di Cocco,SDSC,,,cool,medium-high,Aug–Feb,transplant,35,70,2,0.67,,1,1,,single,organic,https://sandiegoseedcompany.com/product/vegetables/broccoli/organic-sprouting-di-cocco-broccoli-seeds/
+Broccoli,Belstar F1,JS,,,cool,medium-high,Aug–Feb,transplant,35,70,2,0.67,,1,1,,single,organic - *shopper requested*,https://www.johnnyseeds.com/vegetables/broccoli/standard-broccoli/belstar-organic-f1-broccoli-seed-2815G.html
+Broccoli,Happy Rich F1,JS,,,cool,medium-high,Aug–Feb,transplant,35,70,2,0.67,,1,1,,single,mini broccoli,https://www.johnnyseeds.com/vegetables/broccoli/mini-broccoli/happy-rich-f1-broccoli-seed-2629.html
+Napa Cabbage,Mini Napa Chinese Cabbage,SDSC,,,cool,medium-high,Aug–Feb,transplant,35,85,2,0.56,,2,4,,single,,https://sandiegoseedcompany.com/product/vegetables/cabbages/mini-napa-chinese-cabbage-seeds/
+Cabbage,Red Acre,SDSC,,,cool,medium-high,Aug–Feb,transplant,35,85,2,0.56,,2,4,,single,organic,https://sandiegoseedcompany.com/product/vegetables/cabbages/organic-red-acre-cabbage-seeds/
+Pak Choi,White Stem Pak Choi,SDSC,,,cool,medium-high,Aug–Feb,transplant,35,85,5-star,0.56,,2,4,,single,organic,https://sandiegoseedcompany.com/product/vegetables/cabbages/organic-white-stem-pak-choi-seeds/
+Cabbage,Bronco F1,JS,,,cool,medium-high,Aug–Feb,transplant,35,85,2,0.56,,2,4,,single,organic - *shopper requested*,https://www.johnnyseeds.com/vegetables/cabbage/fresh-market-cabbage/bronco-organic-f1-cabbage-seed-5195G.html
+Chinese Cabbage,Bilko F1 Chinese Cabbage,JS,,,cool,medium-high,Aug–Feb,transplant,35,85,2,0.56,,2,4,,single,organic - *shopper requested*,https://www.johnnyseeds.com/vegetables/chinese-cabbage/bilko-organic-f1-chinese-cabbage-seed-2814G.html
+Cauliflower,Snowball,SDSC,,,cool,high,Aug–Dec,transplant,35,80,2,0.56,,1,2,,single,organic,https://sandiegoseedcompany.com/product/vegetables/cauliflower/organic-snowball-cauliflower-seeds/
+Cauliflower,Violet Queen,SDSC,,,cool,high,Aug–Dec,transplant,35,80,2,0.56,,1,2,,single,,https://sandiegoseedcompany.com/product/vegetables/cauliflower/violet-queen-cauliflower-seeds/
+Kale,Black Magic,SDSC,,,cool,medium,Aug–Mar,transplant,30,60,5-star,1,,1,5,,single,*shopper requested*,https://sandiegoseedcompany.com/product/vegetables/kale/black-magic-kale-seeds/
+Beets,Golden Beet,SDSC,,,cool,medium,Sep–Feb,direct_sow,,60,5-star,3,,0.25,0.25,,single,organic,https://sandiegoseedcompany.com/product/vegetables/beets/organic-golden-beet-seeds/
+Beets,Boro,SDSC,,,cool,medium,Sep–Feb,direct_sow,,60,5-star,3,,0.25,0.25,,single,organic,https://sandiegoseedcompany.com/product/vegetables/beets/organic-boro-beet-seeds/
+Beets,Detroit Dark Red,SDSC,,,cool,medium,Sep–Feb,direct_sow,,60,5-star,3,,0.25,0.25,,single,organic,https://sandiegoseedcompany.com/product/vegetables/beets/organic-detroit-dark-red-beet-seeds/
+Beets,Bulls Blood,SDSC,,,cool,medium,Sep–Feb,direct_sow,,60,5-star,3,,0.25,0.25,,single,,https://sandiegoseedcompany.com/product/vegetables/beets/bulls-blood-beet-seeds/
+Beets,Boldor,JS,,,cool,medium,Sep–Feb,direct_sow,,60,5-star,3,,0.25,0.25,,single,"organic, golden - *shopper requested*",https://www.johnnyseeds.com/vegetables/beets/specialty-beets/boldor-organic-beet-seed-3121G.html
+Beets,Boro F1,JS,,,cool,medium,Sep–Feb,direct_sow,,60,5-star,3,,0.25,0.25,,single,organic - *shopper requested*,https://www.johnnyseeds.com/vegetables/beets/round-red-beets/boro-organic-f1-beet-seed-3300G.html
+Carrots,Juwarot,SDSC,,,cool,medium,Sep–Feb,direct_sow,,75,4,6,,0.25,0.25,,single,organic,https://sandiegoseedcompany.com/product/vegetables/carrots/organic-juwarot-carrot-seeds/
+Carrots,Miami Pelleted,SDSC,,,cool,medium,Sep–Feb,direct_sow,,75,4,6,,0.25,0.25,,single,organic,https://sandiegoseedcompany.com/product/vegetables/carrots/organic-miami-pelleted-carrot-seeds/
+Carrots,Nantes Coreless,SDSC,,,cool,medium,Sep–Feb,direct_sow,,75,4,6,,0.25,0.25,,single,organic,https://sandiegoseedcompany.com/product/vegetables/carrots/organic-nantes-coreless-carrot-seeds/
+Carrots,Danvers,SDSC,,,cool,medium,Sep–Feb,direct_sow,,75,4,6,,0.25,0.25,,single,organic,https://sandiegoseedcompany.com/product/vegetables/carrots/organic-danvers-carrot-seeds/
+Carrots,Bengala F1,JS,,,cool,medium,Sep–Feb,direct_sow,,75,4,6,,0.25,0.25,,single,*shopper requested* - currently out of stock,https://www.johnnyseeds.com/vegetables/carrots/storage-carrots/bengala-organic-f1-carrot-seed-5176G.html
+Carrots,Bolero F1,JS,,,cool,medium,Sep–Feb,direct_sow,,75,4,6,,0.25,0.25,,single,*replacement for Bengala*,https://www.johnnyseeds.com/vegetables/carrots/storage-carrots/bolero-f1-carrot-seed-216.html
+Radishes,French Breakfast,SDSC,,,cool,low-medium,Sep–Mar,direct_sow,,28,4,6,,0.25,0.25,,single,,https://sandiegoseedcompany.com/product/vegetables/radishes/french-breakfast-radish-seeds/
+Radishes (Mixed),Confetti Mix,SDSC,,,cool,low-medium,Sep–Mar,direct_sow,,28,4,6,,0.25,0.25,,mixed,,https://sandiegoseedcompany.com/product/vegetables/radishes/confetti-mix-radish-seeds/
+Arugula,Wild Arugula,SDSC,,,cool,medium,Sep–Mar,direct_sow,,30,scattered,,25,0.001,0.0015,,single,,https://sandiegoseedcompany.com/product/herbs/wild-arugula-seeds/
+Lettuce (Single),Parris Island Cos Romaine,SDSC,,,cool,medium-high,Sep–Mar,transplant,28,55,5-star,1,,1,1,,single,,https://sandiegoseedcompany.com/product/vegetables/greens/parris-island-cos-romaine-lettuce-seeds/
+Lettuce (Mixed),Zone 9-10 Mix,SDSC,,,cool,medium-high,Sep–Mar,direct_sow,,35,scattered,,20,0.0015,0.0025,,mixed,organic,https://sandiegoseedcompany.com/product/vegetables/lettuce/organic-zone-9-10-lettuce-mix/
+Lettuce (Mixed),Allstar Gourmet Mix,JS,,,cool,medium-high,Sep–Mar,direct_sow,,35,scattered,,20,0.0015,0.0025,,mixed,,https://www.johnnyseeds.com/vegetables/lettuce/lettuce-mixes/allstar-gourmet-lettuce-mix-vegetable-seed-2301.html
+Spinach,Corvair,SDSC,,,cool,medium,Oct–Feb,transplant,28,45,4,3,,0.25,1,,single,organic,https://sandiegoseedcompany.com/product/vegetables/spinach/organic-corvair-spinach-seeds/
+Swiss Chard,Bright Lights,JS,,,cool,medium,Sep–Mar,transplant,28,60,2,1,,8,12,,single,,https://www.johnnyseeds.com/vegetables/swiss-chard/bright-lights-swiss-chard-seed-703D.html
+Greens Mixes,Ovation Greens Mix,JS,,,cool,medium,Sep–Mar,direct_sow,,35,scattered,,25,0.0015,0.0015,,mixed,organic - *shopper requested*,https://www.johnnyseeds.com/vegetables/greens/greens-mixes/ovation-greens-mix-organic-vegetable-seed-2697G.html
+Mustard Greens,Broadleaf Mustard Green,SDSC,,,cool,medium,Sep–Mar,direct_sow,,40,scattered,,5,,,,single,,https://sandiegoseedcompany.com/product/vegetables/greens/broadleaf-mustard-green-seeds/
+Chicory,Gourmet Blend,SDSC,,,cool,medium,Sep–Feb,direct_sow,,55,scattered,,5,,,,mixed,,https://sandiegoseedcompany.com/product/vegetables/greens/gourmet-blend-chicory-seeds/
+Celery,Golden Pascal,SDSC,,,cool,high,Aug–Oct,transplant,80,120,3,1,,0.5,0.5,,single,organic,https://sandiegoseedcompany.com/product/vegetables/celery/organic-golden-pascal-celery-seeds/
+Celery,Tango,JS,,,cool,high,Aug–Oct,transplant,80,120,3,1,,0.5,0.5,,single,organic - *shopper requested*,https://www.johnnyseeds.com/vegetables/celery-and-celeriac/celery/tango-organic-celery-seed-647G.html
+Onions ,Red Rock Bulbing,SDSC,,,cool,medium,Sep–Jan,direct_sow,,120,3,2,,0.25,0.35,,single,bulbing types vary by daylength,https://sandiegoseedcompany.com/product/vegetables/onions/red-rock-bulbing-onion-seeds/
+Onions,Maragogi F1,JS,,,cool,medium,Sep–Jan,direct_sow,,120,3,2,,0.25,0.35,,single,bulbing types vary by daylength,https://www.johnnyseeds.com/vegetables/onions/full-size-onions/maragogi-f1-onion-seed-5230.html
+Tomatoes,Bo Mango,SDSC,,,warm,medium-high,,transplant,50,80,1,0.5,,5,15,,single,organic,https://sandiegoseedcompany.com/product/vegetables/tomatoes/organic-bo-mango-tomato-seeds/
+Tomatoes,Dwarf Wilpena,SDSC,,,warm,medium-high,,transplant,50,80,1,0.5,,5,15,,single,"organic, dwarf - no trellis required",https://sandiegoseedcompany.com/product/vegetables/tomatoes/organic-dwarf-wilpena-tomato-seeds/
+Tomatoes,Dwarf Lucky Swirl,SDSC,,,warm,medium-high,,transplant,50,90,1,0.5,,5,15,,single,"organic, dwarf - no trellis required, container-friendly",https://sandiegoseedcompany.com/product/vegetables/tomatoes/organic-dwarf-lucky-swirl-tomato-seeds/
+Tomatoes,Dwarf Franklin County,SDSC,,,warm,medium-high,,transplant,50,75,1,0.5,,5,15,,single,"organic, dwarf - no trellis required, high-yielding",https://sandiegoseedcompany.com/product/vegetables/tomatoes/organic-dwarf-franklin-county-tomato-seeds/
+Tomatoes,Rainbow Cherry,SDSC,,,warm,medium-high,,transplant,50,80,1,0.5,,5,15,,single,,https://sandiegoseedcompany.com/product/vegetables/tomatoes/rainbow-cherry-tomato-seeds/
+Tomatoes,Gardener's Delight,SDSC,,,warm,medium-high,,transplant,50,65,1,0.5,,5,15,,single,"organic, indeterminate cherry, requires support",https://sandiegoseedcompany.com/product/vegetables/tomatoes/organic-gardeners-delight-tomato-seeds/
+Tomatoes,Sweetie Cherry,SDSC,,,warm,medium-high,,transplant,50,85,1,0.5,,5,15,,single,"organic, indeterminate cherry, crack-free",https://sandiegoseedcompany.com/product/vegetables/tomatoes/organic-sweetie-cherry-tomato/
+Tomatoes,Thornburn's Terra Cotta,SDSC,,,warm,medium-high,,transplant,50,65,1,0.5,,5,15,,single,"organic, indeterminate, heirloom",https://sandiegoseedcompany.com/product/vegetables/tomatoes/organic-thornburns-terra-cotta-tomato-seeds/
+Tomatoes,Hillbilly,SDSC,,,warm,medium-high,,transplant,50,85,1,0.5,,5,15,,single,"organic, indeterminate beefsteak, 1-2 lb fruits",https://sandiegoseedcompany.com/product/vegetables/tomatoes/organic-hillbilly-tomato-seeds/
+Tomatoes,Dirty Girl,SDSC,,,warm,medium-high,,transplant,50,80,1,0.5,,5,15,,single,"indeterminate, drought-tolerant",https://sandiegoseedcompany.com/product/vegetables/tomatoes/dirty-girl-tomato-seeds/
+Tomatoes,Dixie Giant,SDSC,,,warm,medium-high,,transplant,50,80,1,0.5,,5,15,,single,"indeterminate beefsteak, 1-2 lb yellow fruits",https://sandiegoseedcompany.com/product/vegetables/tomatoes/dixie-giant-tomato-seeds/
+Tomatoes,Jolene F1,JS,,,warm,medium-high,,transplant,50,80,1,0.5,,5,15,,single,beefsteak,https://www.johnnyseeds.com/vegetables/tomatoes/beefsteak-tomatoes/jolene-f1-tomato-seed-4778.html
+Tomatoes,Verona F1,JS,,,warm,medium-high,,transplant,50,80,1,0.5,,5,15,,single,"organic, paste",https://www.johnnyseeds.com/vegetables/tomatoes/paste-tomatoes/verona-organic-f1-tomato-seed-3811G.html
+Peppers (Sweet),Italian Pepperoncini,SDSC,,,warm,medium,,transplant,60,90,1,0.67,,1,5,,single,,https://sandiegoseedcompany.com/product/vegetables/peppers/italian-pepperoncini-pepper-seeds/
+Peppers (Sweet),Yolo,SDSC,,,warm,medium,,transplant,60,90,1,0.67,,1,5,,single,,https://sandiegoseedcompany.com/product/vegetables/peppers/yolo-pepper-seeds/
+Peppers (Sweet),Sweet Banana,SDSC,,,warm,medium,,transplant,60,90,1,0.67,,1,5,,single,,https://sandiegoseedcompany.com/product/vegetables/peppers/sweet-banana-pepper-seeds/
+Peppers (Sweet),Orange Wonder Sweet Bell,SDSC,,,warm,medium,,transplant,60,90,1,0.67,,1,5,,single,organic,https://sandiegoseedcompany.com/product/vegetables/peppers/organic-orange-wonder-sweet-bell-pepper-seeds/
+Peppers (Sweet),Jimmy Nardello Sweet,SDSC,,,warm,medium,,transplant,60,90,1,0.67,,1,5,,single,organic,https://sandiegoseedcompany.com/product/vegetables/peppers/organic-jimmy-nardello-sweet-pepper-seeds/
+Peppers (Sweet),Huntington F1 Bell,JS,,,warm,medium,,transplant,60,90,1,0.67,,1,5,,single,,https://www.johnnyseeds.com/vegetables/peppers/sweet-bell-peppers/huntington-f1-bell-pepper-seed-5262.html
+Peppers (Hot),Jalapeno,SDSC,,,warm,medium,,transplant,60,90,1,0.67,,1,5,,single,organic,https://sandiegoseedcompany.com/product/vegetables/peppers/organic-jalapeno-pepper-seeds/
+Peppers (Hot),Poblano,SDSC,,,warm,medium,,transplant,60,90,1,0.67,,1,5,,single,organic,https://sandiegoseedcompany.com/product/vegetables/peppers/organic-poblano-pepper-seeds/
+Peppers (Hot),Flaming Flare F1 Fresno,JS,,,warm,medium,,transplant,60,90,1,0.67,,1,5,,single,,https://www.johnnyseeds.com/vegetables/peppers/hot-peppers/flaming-flare-f1-fresno-pepper-seed-3270.html
+Peppers (Hot),Sargento F1 Poblano,JS,,,warm,medium,,transplant,60,90,1,0.67,,1,5,,single,,https://www.johnnyseeds.com/vegetables/peppers/hot-peppers/sargento-f1-poblano-pepper-seed-4752.html
+Eggplant,Turkish Delight F1,JS,,,warm,medium-high,,transplant,60,85,1,0.5,,1,5,,single,"organic, Asian - *shopper requested*",https://www.johnnyseeds.com/vegetables/eggplant/asian-eggplants/turkish-delight-organic-f1-eggplant-seed-4755G.html
+Cucumber,Marketmore 76,SDSC,,,warm,high,Mar–Aug,direct_sow,,55,1,0.5,,3,5,,single,organic,https://sandiegoseedcompany.com/product/vegetables/cucumbers/organic-marketmore-76-cucumber-seeds/
+Cucumber,Carosello Leccese,SDSC,,,warm,high,Mar–Aug,direct_sow,,55,1,0.5,,3,5,,single,,https://sandiegoseedcompany.com/product/vegetables/cucumbers/carosello-leccese-cucumber-seeds/
+Cucumber,The General F1,JS,,,warm,high,Mar–Aug,direct_sow,,55,1,0.5,,3,5,,single,,https://www.johnnyseeds.com/vegetables/cucumbers/slicing-cucumbers/the-general-f1-cucumber-seed-2417.html
+Summer Squash / Zucchini,Golden Zucchini,SDSC,,,warm,medium-high,Mar–Aug,direct_sow,,50,1,0.33,,5,20,,single,organic,https://sandiegoseedcompany.com/product/vegetables/squash/organic-golden-zucchini-summer-squash-seeds/
+Summer Squash / Zucchini,Prolific Yellow Straightneck,SDSC,,,warm,medium-high,Mar–Aug,direct_sow,,50,1,0.33,,5,20,,single,organic,https://sandiegoseedcompany.com/product/vegetables/squash/organic-prolific-yellow-straightneck-summer-squash-seeds/
+Summer Squash / Zucchini,Dark Star Zucchini,SDSC,,,warm,medium-high,Mar–Aug,direct_sow,,50,1,0.33,,5,20,,single,organic,https://sandiegoseedcompany.com/product/vegetables/squash/organic-dark-star-zucchini-seeds/
+Summer Squash / Zucchini,Yellow Crookneck,JS,,,warm,medium-high,Mar–Aug,direct_sow,,50,1,0.33,,5,20,,single,organic,https://www.johnnyseeds.com/vegetables/squash/summer-squash/yellow-crookneck-organic-yellow-summer-squash-seed-2450.html
+Summer Squash / Zucchini,Spineless Perfection F1 Zucchini,JS,,,warm,medium-high,Mar–Aug,direct_sow,,50,1,0.33,,5,20,,single,,https://www.johnnyseeds.com/vegetables/squash/summer-squash/spineless-perfection-f1-zucchini-squash-seed-3854.html
+Summer Squash / Zucchini,Golden Glory F1 Zucchini,JS,,,warm,medium-high,Mar–Aug,direct_sow,,50,1,0.33,,5,20,,single,,https://www.johnnyseeds.com/vegetables/squash/summer-squash/golden-glory-f1-zucchini-squash-seed-3837.html
+Winter Squash,Waltham Butternut,SDSC,,,warm,medium,Apr–Jun,direct_sow,,100,1,0.17,,10,20,,single,,https://sandiegoseedcompany.com/product/vegetables/squash/waltham-butternut-squash-seeds/
+Winter Squash,Mambo F1 Kabocha,JS,,,warm,medium,Apr–Jun,direct_sow,,100,1,0.17,,10,20,,single,organic,https://www.johnnyseeds.com/vegetables/squash/winter-squash/mambo-organic-f1-kabocha-squash-seed-4304G.html
+Winter Squash,Honey Bear F1 Acorn,JS,,,warm,medium,Apr–Jun,direct_sow,,100,1,0.17,,10,20,,single,,https://www.johnnyseeds.com/vegetables/squash/winter-squash/honey-bear-f1-acorn-squash-seed-689.html
+Winter Squash,Block Party F1 Butternut,JS,,,warm,medium,Apr–Jun,direct_sow,,100,1,0.17,,10,20,,single,organic,https://www.johnnyseeds.com/vegetables/squash/winter-squash/block-party-organic-f1-butternut-squash-seed-4307G.html
+Melons,Early Girl Watermelon,SDSC,,,warm,medium,Apr–Jun,direct_sow,,90,1,0.17,,,,,single,,https://sandiegoseedcompany.com/product/fruit/melons/watermelon/early-girl-watermelon-seeds/
+Melons,Sugar Baby Watermelon,SDSC,,,warm,medium,Apr–Jun,direct_sow,,90,1,0.17,,,,,single,organic,https://sandiegoseedcompany.com/product/fruit/melons/watermelon/organic-sugar-baby-watermelon-seeds/
+Melons,Golden Delicious Cantaloupe,SDSC,,,warm,medium,Apr–Jun,direct_sow,,90,1,0.17,,,,,single,,https://sandiegoseedcompany.com/product/fruit/melons/golden-delicious-cantaloupe-seeds/
+Melons,Saniara F1 Watermelon,JS,,,warm,medium,Apr–Jun,direct_sow,,90,1,0.17,,,,,single,seedless,https://www.johnnyseeds.com/vegetables/watermelons/triploid-watermelons-seedless/saniara-f1-watermelon-seed-5206.html
+Sweet Potatoes (Slips),Mahon Yam,JS,,,warm,medium,,slips,,120,1,0.5,,2,3,,single,"organic, slips",https://www.johnnyseeds.com/vegetables/sweet-potatoes/mahon-yam-organic-sweet-potato-slips-3200G.html
+Beans (Bush),Calypso Bush,SDSC,,,warm,medium,Apr–Aug,direct_sow,,55,2,3,,0.5,1,,single,,https://sandiegoseedcompany.com/product/vegetables/beans/calypso-bush-bean-seeds/
+Beans (Bush Mixed),So Cal Flavor Trio Bush,SDSC,,,warm,medium,Apr–Aug,direct_sow,,55,2,3,,0.5,1,,single,,https://sandiegoseedcompany.com/product/vegetables/beans/so-cal-flavor-trio-bush-bean-seeds/
+Beans (Pole),Blue Lake Pole,SDSC,,,warm,medium,Apr–Aug,direct_sow,,65,1,2,,0.5,1,,single,,https://sandiegoseedcompany.com/product/vegetables/beans/blue-lake-pole-bean-seeds/
+Beans (Pole),Golden Pole,SDSC,,,warm,medium,Apr–Aug,direct_sow,,65,1,2,,0.5,1,,single,,https://sandiegoseedcompany.com/product/vegetables/beans/golden-pole-bean-seeds/
+Fava Beans,Fava Bean,SDSC,,,cool,medium,Oct–Dec,direct_sow,,100,2,1,,,,,single,organic,https://sandiegoseedcompany.com/product/vegetables/beans/organic-fava-bean-seeds/
+Amaranth,Orange Amaranth,SDSC,,,warm,low,Apr–Aug,direct_sow,,55,scattered,,16,,,,single,organic,https://sandiegoseedcompany.com/product/vegetables/amaranth/organic-orange-amaranth-seeds/
