@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run python
 """
 Quick script to import .gdoc files from Google Drive to markdown.
 

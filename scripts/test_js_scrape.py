@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run python
 """Test Johnny's Seeds scraping with tnh-gen integration."""
 
 from pathlib import Path

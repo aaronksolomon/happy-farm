@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run python
 """
 View and calculate planting schedule with date dependencies.
-
-Usage:
-    python scripts/view_schedule.py
 """
 
 import pandas as pd

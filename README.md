@@ -32,13 +32,17 @@ happy-farm/
 
 ## Setup
 
-```bash
-# Create Python environment
-python -m venv venv
-source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+This project uses [uv](https://docs.astral.sh/uv/) for Python environment and dependency management.
 
-# Install core dependencies
-pip install pandas openpyxl jupyter matplotlib seaborn httpx beautifulsoup4 tenacity
+```bash
+# Install uv (if not already installed)
+# macOS/Linux:
+curl -LsSf https://astral.sh/uv/install.sh | sh
+# Windows:
+# powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# Install dependencies and create virtual environment
+uv sync
 
 # Create directory structure
 mkdir -p data/{seeds,schedules,analytics}
@@ -46,6 +50,21 @@ mkdir -p scripts notebooks exports
 ```
 
 ## Example Usage
+
+Run Python scripts and notebooks using `uv run`:
+
+```bash
+# Run a script
+uv run scripts/scrape_plant_data.py --input data/plants/vegetable-data.csv
+
+# Start Jupyter
+uv run jupyter notebook
+
+# Run Python interactively
+uv run python
+```
+
+Quick analysis example:
 
 ```python
 import pandas as pd
@@ -76,18 +95,57 @@ df.to_excel('exports/tomato_varieties_2025.xlsx', index=False)
 
 ## Plant Data Scraping
 
-- Enrich plant CSVs with supplier growing info using `scripts/scrape_plant_data.py`.
-- Example (cached dev run): `python3 scripts/scrape_plant_data.py --input data/plants/vegetable-data.csv --output data/plants/vegetable-data-enriched.csv --use-cache`
-- Use `--retry-failed` to re-run only rows previously marked as `failed`.
-- JS rows require `tnh-gen` from the `tnh-scholar` project on `PYTHONPATH`; SDSC rows rely only on `httpx`, `beautifulsoup4`, and `tenacity`.
+Enrich plant CSVs with supplier growing info using `scripts/scrape_plant_data.py`:
+
+```bash
+# Example (cached dev run)
+uv run scripts/scrape_plant_data.py \
+  --input data/plants/vegetable-data.csv \
+  --output data/plants/vegetable-data-enriched.csv \
+  --use-cache
+
+# Retry only failed rows
+uv run scripts/scrape_plant_data.py --retry-failed
+
+# Process only new rows (skip already successful)
+uv run scripts/scrape_plant_data.py --only-new
+```
+
+**Requirements:**
+
+- SDSC rows rely on `httpx`, `beautifulsoup4`, and `tenacity` (installed via `uv sync`)
+- JS (Johnny's Seeds) rows require `tnh-gen` CLI tool installed separately via pipx
 
 ## Tech Stack
 
+- **uv**: Python environment and dependency management
 - **Python + Pandas**: Data manipulation
 - **Jupyter**: Exploratory analysis (optional)
 - **openpyxl/xlsxwriter**: Excel export with formatting
 - **Git**: Local versioning
 - **VS Code + Claude Code**: AI-assisted development
+
+## Development Workflow with uv
+
+```bash
+# First time setup
+uv sync                          # Install all dependencies
+
+# Running scripts
+uv run scripts/scrape_plant_data.py --use-cache
+uv run scripts/extract_plant_subset.py
+
+# Interactive Python
+uv run python                    # Python REPL with project dependencies
+uv run jupyter notebook          # Start Jupyter
+
+# Add new dependencies
+uv add package-name              # Add to pyproject.toml and install
+uv add --dev package-name        # Add as dev dependency
+
+# Update dependencies
+uv sync                          # Sync after pulling changes
+```
 
 ---
 

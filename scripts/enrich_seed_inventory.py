@@ -1,3 +1,5 @@
+#!/usr/bin/env -S uv run python
+"""Enrich seed inventory data with yield ranges."""
 from __future__ import annotations
 
 from dataclasses import dataclass

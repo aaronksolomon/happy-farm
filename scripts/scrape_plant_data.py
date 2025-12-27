@@ -1,4 +1,11 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run python
+"""Scrape plant data from supplier product pages.
+
+Performance notes:
+- Default batch size: 25 concurrent requests per batch
+- Batch delay: 1.0s between batches
+- These values balance speed with being respectful to the supplier websites
+"""
 from __future__ import annotations
 
 import argparse
@@ -344,6 +351,7 @@ def scrape_plant_data(
     output_path: Path,
     use_cache: bool = False,
     retry_failed_only: bool = False,
+    only_new: bool = False,
     batch_size: int = 20,
     batch_delay: float = 1.0,
 ) -> None:
@@ -358,6 +366,11 @@ def scrape_plant_data(
     for idx, row in df.iterrows():
         if retry_failed_only and row.get("scrape_status") != "failed":
             continue
+        if only_new:
+            status = row.get("scrape_status")
+            # Process if scrape_status is missing, empty, or not "success"
+            if pd.notna(status) and status == "success":
+                continue
         rows_to_process.append((idx, row))
 
     if not rows_to_process:
@@ -438,10 +451,15 @@ def parse_args() -> argparse.Namespace:
         help="Only retry rows marked as failed.",
     )
     parser.add_argument(
+        "--only-new",
+        action="store_true",
+        help="Only process rows with no scrape_status or scrape_status != 'success'.",
+    )
+    parser.add_argument(
         "--batch-size",
         type=int,
-        default=20,
-        help="Number of rows to process concurrently per batch (default: 20).",
+        default=25,
+        help="Number of rows to process concurrently per batch (default: 25).",
     )
     parser.add_argument(
         "--batch-delay",
@@ -459,6 +477,7 @@ def main() -> None:
         output_path=args.output,
         use_cache=args.use_cache,
         retry_failed_only=args.retry_failed,
+        only_new=args.only_new,
         batch_size=args.batch_size,
         batch_delay=args.batch_delay,
     )
