@@ -233,7 +233,7 @@ def parse_js_with_ai(html: str, prompt_file: Path | None = None) -> dict[str, An
         env = {"TNH_PROMPT_DIR": str(prompts_dir)}
         result = subprocess.run(
             [
-                "tnh-gen", "run",
+                "tnh-gen", "--api", "run",
                 "--prompt", prompt_key,
                 "--input-file", tmp_path
             ],
