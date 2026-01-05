@@ -1,6 +1,6 @@
 # ADR01: Happy Farm Analytics Workspace Architecture
 
-**Author:** Paul Hapman, Claude Sonnet 4.5
+**Author:** Aaron Solomon, Claude Sonnet 4.5
 **Date:** December 2025
 **Status:** Proposed
 
@@ -155,6 +155,17 @@ pip install pandas openpyxl jupyter matplotlib seaborn
 # - Python
 # - Data Wrangler (pandas DataFrame viewer)
 ```
+
+## Addendum (2026-01-03) - Dependency Policy
+
+The workspace now uses a single dependency group. All runtime and tooling
+dependencies live in `[project].dependencies` to keep setup simple and avoid
+multi-group state.
+
+## Addendum (2026-01-03) - CLI Error Handling
+
+Scripts should handle errors gracefully by printing `Error: ...` and returning
+a non-zero exit code rather than dumping stack traces.
 
 ### Example: Seed List Transform
 

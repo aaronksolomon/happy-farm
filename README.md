@@ -141,11 +141,20 @@ uv run jupyter notebook          # Start Jupyter
 
 # Add new dependencies
 uv add package-name              # Add to pyproject.toml and install
-uv add --dev package-name        # Add as dev dependency
 
 # Update dependencies
 uv sync                          # Sync after pulling changes
 ```
+
+## Dependency Policy
+
+This workspace uses a single dependency group. All dependencies live in
+`[project].dependencies` to keep setup and environments simple.
+
+## CLI Error Handling
+
+Scripts should fail gracefully by printing `Error: ...` and returning a non-zero
+exit code instead of dumping stack traces.
 
 ---
 

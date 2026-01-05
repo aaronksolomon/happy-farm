@@ -1,0 +1,7 @@
+# schema_version: 1
+bed_id,start_ft,length_ft,crop,variety,wave_id,plant_date,notes
+1,5,45,Arugula,Wild Arugula,Arugula:Wild Arugula:2026-02-14,2026-02-14,Test planting - skips flower block at 0
+1,55,20,Spinach,Corvair,Spinach:Corvair:2026-02-14,2026-02-14,Small spinach plot
+2,10,25,Broccoli,Belstar F1,Broccoli:Belstar F1:2026-02-14,2026-02-14,Transplant succession
+3,0,55,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,2026-02-14,Full bed baby greens
+4,20,30,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,2026-02-14,Mid-bed lettuce

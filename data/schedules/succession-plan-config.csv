@@ -1,0 +1,20 @@
+crop,variety,target_lbs_week,succession_days_override,stagger_offset_days,notes
+Broccoli,Belstar F1,10.0,,,JS only - 20 lbs total / 2 varieties
+Broccoli,Happy Rich F1,10.0,14.0,7.0,Mini broccoli - shorter succession / Offset 7 days
+Cabbage,Bronco F1,20.0,,,JS only - 20 lbs total
+Chinese Cabbage,Bilko F1 Chinese Cabbage,20.0,,,JS only (use for Napa too)
+Pak Choi,Black Summer F1,20.0,,,JS variety
+Cauliflower,Earlisnow F1,10.0,,0.0,JS - 20 lbs total / 2 varieties
+Cauliflower,Tessaury F1,10.0,,10.0,JS organic - Offset 10 days
+Beets,Boldor,5.0,,0.0,JS - 10 lbs total / 2 varieties
+Beets,Boro F1,5.0,,5.0,JS - Offset 5 days
+Carrots,Bengala F1,15.0,,0.0,JS - 30 lbs total / 2 varieties
+Carrots,Bolero F1,15.0,,7.0,JS - Offset 7 days
+Radishes,Sora,10.0,,,JS organic - 10 lbs total
+Arugula,Wild Arugula,3.0,,,SDSC - Direct sow baby green
+Lettuce (Single),Sunland,8.0,,,JS romaine
+Lettuce (Mixed),Allstar Gourmet Mix,5.0,,,JS - Baby lettuce mix - direct sow
+Greens Mixes,Ovation Greens Mix,5.0,,,JS - Baby greens mix - direct sow
+Spinach,Corvair,5.0,,,SDSC - Single variety
+Mustard Greens,Wasabina,5.0,,,JS - Direct sow baby green
+Chicory,Gourmet Blend,5.0,,,SDSC - Direct sow

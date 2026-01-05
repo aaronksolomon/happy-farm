@@ -1,0 +1,5 @@
+{"schema_version": 1, "label_mode": "full", "show_legend": true}
+{"family_colors": {"Brassica": "#6A9A1F", "Root Vegetable": "#D97A1E", "Baby Greens": "#2E8B57", "Head Lettuce": "#4CAF50", "Leafy Green": "#6FBF73"}}
+{"water_alpha": {"high": 1.0, "medium": 0.7, "low": 0.4}}
+{"water_borders": {"high": "solid", "medium": "dashed", "low": "dotted"}}
+{"cell_size": 40, "font_family": "Helvetica", "label_font_size": 6, "conflict_font_size": 5, "reserved_font_size": 6, "conflict_max_lines": 4, "row_label_width": 40, "notes_col_width_ratio": 0.33}

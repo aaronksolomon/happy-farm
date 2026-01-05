@@ -12,14 +12,12 @@ dependencies = [
     "beautifulsoup4>=4.12.0",
     "tenacity>=8.2.0",
     "openai>=1.0.0",
-]
-
-[dependency-groups]
-dev = [
     "jupyter>=1.0.0",
     "matplotlib>=3.7.0",
     "seaborn>=0.12.0",
     "ipykernel>=6.25.0",
+    "pytest>=8.0.0",
+    "cairosvg>=2.7.0",
 ]
 
 [build-system]

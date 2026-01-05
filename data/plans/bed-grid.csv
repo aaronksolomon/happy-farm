@@ -1,0 +1,193 @@
+bed_id,block_idx,status,crop,variety,wave_id,family,water,notes,conflict_details,color,alpha,border_style,run_id
+1,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,0
+1,1,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Salad succession engine - high water,,#2E8B57,0.7,dashed,1
+1,2,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Salad succession engine - high water,,#2E8B57,0.7,dashed,1
+1,3,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Salad succession engine - high water,,#2E8B57,0.7,dashed,1
+1,4,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Salad succession engine - high water,,#2E8B57,0.7,dashed,1
+1,5,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Salad succession engine - high water,,#2E8B57,0.7,dashed,1
+1,6,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Salad succession engine - high water,,#2E8B57,0.7,dashed,1
+1,7,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Salad succession engine - high water,,#2E8B57,0.7,dashed,1
+1,8,BENEFICIAL,,,,,,,,#B3D9FF,1.0,solid,2
+1,9,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Baby lettuce mix,,#2E8B57,1.0,solid,3
+1,10,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Baby lettuce mix,,#2E8B57,1.0,solid,3
+1,11,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Baby lettuce mix,,#2E8B57,1.0,solid,3
+1,12,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Baby lettuce mix,,#2E8B57,1.0,solid,3
+1,13,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Baby lettuce mix,,#2E8B57,1.0,solid,3
+1,14,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Baby lettuce mix,,#2E8B57,1.0,solid,3
+1,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,4
+2,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,5
+2,1,CROP,Arugula,Wild Arugula,Arugula:Wild Arugula:2026-02-14,Baby Greens,medium,Anchor green - isolated to prevent spread,,#2E8B57,0.7,dashed,6
+2,2,CROP,Arugula,Wild Arugula,Arugula:Wild Arugula:2026-02-14,Baby Greens,medium,Anchor green - isolated to prevent spread,,#2E8B57,0.7,dashed,6
+2,3,CROP,Arugula,Wild Arugula,Arugula:Wild Arugula:2026-02-14,Baby Greens,medium,Anchor green - isolated to prevent spread,,#2E8B57,0.7,dashed,6
+2,4,CROP,Arugula,Wild Arugula,Arugula:Wild Arugula:2026-02-14,Baby Greens,medium,Anchor green - isolated to prevent spread,,#2E8B57,0.7,dashed,6
+2,5,CROP,Arugula,Wild Arugula,Arugula:Wild Arugula:2026-02-14,Baby Greens,medium,Anchor green - isolated to prevent spread,,#2E8B57,0.7,dashed,6
+2,6,CROP,Arugula,Wild Arugula,Arugula:Wild Arugula:2026-02-14,Baby Greens,medium,Anchor green - isolated to prevent spread,,#2E8B57,0.7,dashed,6
+2,7,BENEFICIAL,,,,,,,,#B3D9FF,1.0,solid,7
+2,8,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Overflow greens,,#2E8B57,0.7,dashed,8
+2,9,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Overflow greens,,#2E8B57,0.7,dashed,8
+2,10,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Overflow greens,,#2E8B57,0.7,dashed,8
+2,11,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Overflow greens,,#2E8B57,0.7,dashed,8
+2,12,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Overflow greens,,#2E8B57,0.7,dashed,8
+2,13,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,Baby Greens,medium,Overflow greens,,#2E8B57,0.7,dashed,8
+2,14,EMPTY,,,,,,,,#F2F2F2,1.0,solid,9
+2,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,10
+3,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,11
+3,1,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Overflow lettuce,,#2E8B57,1.0,solid,12
+3,2,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Overflow lettuce,,#2E8B57,1.0,solid,12
+3,3,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Overflow lettuce,,#2E8B57,1.0,solid,12
+3,4,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Overflow lettuce,,#2E8B57,1.0,solid,12
+3,5,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Overflow lettuce,,#2E8B57,1.0,solid,12
+3,6,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,Baby Greens,medium-high,Overflow lettuce,,#2E8B57,1.0,solid,12
+3,7,BENEFICIAL,,,,,,,,#B3D9FF,1.0,solid,13
+3,8,CROP,Spinach,Corvair,Spinach:Corvair:2026-02-14,Baby Greens,medium,Spice strip component,,#2E8B57,0.7,dashed,14
+3,9,CROP,Chicory,Gourmet Blend,Chicory:Gourmet Blend:2026-02-14,Baby Greens,medium,Spice strip component,,#2E8B57,0.7,dashed,15
+3,10,CROP,Mustard Greens,Wasabina,Mustard Greens:Wasabina:2026-02-14,Baby Greens,medium,Spice strip component,,#2E8B57,0.7,dashed,16
+3,11,CROP,Radishes,Sora,Radishes:Sora:2026-02-14,Root Vegetable,low-medium,Spice strip component,,#D97A1E,1.0,solid,17
+3,12,EMPTY,,,,,,,,#F2F2F2,1.0,solid,18
+3,13,EMPTY,,,,,,,,#F2F2F2,1.0,solid,18
+3,14,EMPTY,,,,,,,,#F2F2F2,1.0,solid,18
+3,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,19
+4,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,20
+4,1,CROP,Broccoli,Belstar F1,Broccoli:Belstar F1:2026-02-14,Brassica,medium-high,Brassica block - nettable bed,,#6A9A1F,1.0,solid,21
+4,2,CROP,Broccoli,Belstar F1,Broccoli:Belstar F1:2026-02-14,Brassica,medium-high,Brassica block - nettable bed,,#6A9A1F,1.0,solid,21
+4,3,CROP,Broccoli,Belstar F1,Broccoli:Belstar F1:2026-02-14,Brassica,medium-high,Brassica block - nettable bed,,#6A9A1F,1.0,solid,21
+4,4,CROP,Broccoli,Happy Rich F1,Broccoli:Happy Rich F1:2026-02-21,Brassica,medium-high,Brassica block - offset 7 days,,#6A9A1F,1.0,solid,22
+4,5,CROP,Broccoli,Happy Rich F1,Broccoli:Happy Rich F1:2026-02-21,Brassica,medium-high,Brassica block - offset 7 days,,#6A9A1F,1.0,solid,22
+4,6,CROP,Broccoli,Happy Rich F1,Broccoli:Happy Rich F1:2026-02-21,Brassica,medium-high,Brassica block - offset 7 days,,#6A9A1F,1.0,solid,22
+4,7,CROP,Broccoli,Happy Rich F1,Broccoli:Happy Rich F1:2026-02-21,Brassica,medium-high,Brassica block - offset 7 days,,#6A9A1F,1.0,solid,22
+4,8,CROP,Broccoli,Happy Rich F1,Broccoli:Happy Rich F1:2026-02-21,Brassica,medium-high,Brassica block - offset 7 days,,#6A9A1F,1.0,solid,22
+4,9,CROP,Cauliflower,Earlisnow F1,Cauliflower:Earlisnow F1:2026-02-14,Brassica,high,Brassica block,,#6A9A1F,1.0,solid,23
+4,10,CROP,Cauliflower,Earlisnow F1,Cauliflower:Earlisnow F1:2026-02-14,Brassica,high,Brassica block,,#6A9A1F,1.0,solid,23
+4,11,CROP,Cauliflower,Earlisnow F1,Cauliflower:Earlisnow F1:2026-02-14,Brassica,high,Brassica block,,#6A9A1F,1.0,solid,23
+4,12,CROP,Cauliflower,Tessaury F1,Cauliflower:Tessaury F1:2026-02-24,Brassica,high,Brassica block - offset 10 days,,#6A9A1F,1.0,solid,24
+4,13,CROP,Cauliflower,Tessaury F1,Cauliflower:Tessaury F1:2026-02-24,Brassica,high,Brassica block - offset 10 days,,#6A9A1F,1.0,solid,24
+4,14,CROP,Cauliflower,Tessaury F1,Cauliflower:Tessaury F1:2026-02-24,Brassica,high,Brassica block - offset 10 days,,#6A9A1F,1.0,solid,24
+4,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,25
+5,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,26
+5,1,CROP,Chinese Cabbage,Bilko F1 Chinese Cabbage,Chinese Cabbage:Bilko F1 Chinese Cabbage:2026-02-14,Brassica,medium-high,Brassica conveyor belt,,#6A9A1F,1.0,solid,27
+5,2,CROP,Chinese Cabbage,Bilko F1 Chinese Cabbage,Chinese Cabbage:Bilko F1 Chinese Cabbage:2026-02-14,Brassica,medium-high,Brassica conveyor belt,,#6A9A1F,1.0,solid,27
+5,3,CROP,Chinese Cabbage,Bilko F1 Chinese Cabbage,Chinese Cabbage:Bilko F1 Chinese Cabbage:2026-02-14,Brassica,medium-high,Brassica conveyor belt,,#6A9A1F,1.0,solid,27
+5,4,CROP,Pak Choi,Black Summer F1,Pak Choi:Black Summer F1:2026-02-14,Brassica,medium-high,Brassica conveyor belt,,#6A9A1F,1.0,solid,28
+5,5,CROP,Pak Choi,Black Summer F1,Pak Choi:Black Summer F1:2026-02-14,Brassica,medium-high,Brassica conveyor belt,,#6A9A1F,1.0,solid,28
+5,6,CROP,Cabbage,Bronco F1,Cabbage:Bronco F1:2026-02-14,Brassica,medium-high,Brassica conveyor belt,,#6A9A1F,1.0,solid,29
+5,7,CROP,Cabbage,Bronco F1,Cabbage:Bronco F1:2026-02-14,Brassica,medium-high,Brassica conveyor belt,,#6A9A1F,1.0,solid,29
+5,8,EMPTY,,,,,,,,#F2F2F2,1.0,solid,30
+5,9,EMPTY,,,,,,,,#F2F2F2,1.0,solid,30
+5,10,EMPTY,,,,,,,,#F2F2F2,1.0,solid,30
+5,11,EMPTY,,,,,,,,#F2F2F2,1.0,solid,30
+5,12,EMPTY,,,,,,,,#F2F2F2,1.0,solid,30
+5,13,EMPTY,,,,,,,,#F2F2F2,1.0,solid,30
+5,14,EMPTY,,,,,,,,#F2F2F2,1.0,solid,30
+5,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,31
+6,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,32
+6,1,CROP,Carrots,Bengala F1,Carrots:Bengala F1:2026-02-14,Root Vegetable,medium,Roots block - steady moisture,,#D97A1E,0.7,dashed,33
+6,2,CROP,Carrots,Bengala F1,Carrots:Bengala F1:2026-02-14,Root Vegetable,medium,Roots block - steady moisture,,#D97A1E,0.7,dashed,33
+6,3,CROP,Carrots,Bolero F1,Carrots:Bolero F1:2026-02-21,Root Vegetable,medium,Roots block - offset 7 days,,#D97A1E,0.7,dashed,34
+6,4,CROP,Carrots,Bolero F1,Carrots:Bolero F1:2026-02-21,Root Vegetable,medium,Roots block - offset 7 days,,#D97A1E,0.7,dashed,34
+6,5,CROP,Lettuce (Single),Sunland,Lettuce (Single):Sunland:2026-02-14,Head Lettuce,medium-high,Romaine heads with roots,,#4CAF50,1.0,solid,35
+6,6,CROP,Lettuce (Single),Sunland,Lettuce (Single):Sunland:2026-02-14,Head Lettuce,medium-high,Romaine heads with roots,,#4CAF50,1.0,solid,35
+6,7,BENEFICIAL,,,,,,,,#B3D9FF,1.0,solid,36
+6,8,CROP,Beets,Boldor,Beets:Boldor:2026-02-14,Root Vegetable,medium,Beet block,,#D97A1E,0.7,dashed,37
+6,9,CROP,Beets,Boldor,Beets:Boldor:2026-02-14,Root Vegetable,medium,Beet block,,#D97A1E,0.7,dashed,37
+6,10,CROP,Beets,Boldor,Beets:Boldor:2026-02-14,Root Vegetable,medium,Beet block,,#D97A1E,0.7,dashed,37
+6,11,CROP,Beets,Boro F1,Beets:Boro F1:2026-02-19,Root Vegetable,medium,Beet block - offset 5 days,,#D97A1E,0.7,dashed,38
+6,12,CROP,Beets,Boro F1,Beets:Boro F1:2026-02-19,Root Vegetable,medium,Beet block - offset 5 days,,#D97A1E,0.7,dashed,38
+6,13,CROP,Beets,Boro F1,Beets:Boro F1:2026-02-19,Root Vegetable,medium,Beet block - offset 5 days,,#D97A1E,0.7,dashed,38
+6,14,EMPTY,,,,,,,,#F2F2F2,1.0,solid,39
+6,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,40
+7,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,41
+7,1,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,2,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,3,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,4,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,5,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,6,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,7,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,8,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,9,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,10,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,11,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,12,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,13,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,14,EMPTY,,,,,,,,#F2F2F2,1.0,solid,42
+7,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,43
+8,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,44
+8,1,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,2,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,3,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,4,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,5,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,6,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,7,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,8,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,9,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,10,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,11,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,12,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,13,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,14,EMPTY,,,,,,,,#F2F2F2,1.0,solid,45
+8,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,46
+9,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,47
+9,1,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,2,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,3,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,4,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,5,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,6,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,7,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,8,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,9,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,10,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,11,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,12,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,13,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,14,EMPTY,,,,,,,,#F2F2F2,1.0,solid,48
+9,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,49
+10,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,50
+10,1,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,2,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,3,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,4,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,5,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,6,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,7,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,8,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,9,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,10,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,11,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,12,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,13,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,14,EMPTY,,,,,,,,#F2F2F2,1.0,solid,51
+10,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,52
+11,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,53
+11,1,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,2,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,3,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,4,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,5,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,6,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,7,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,8,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,9,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,10,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,11,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,12,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,13,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,14,EMPTY,,,,,,,,#F2F2F2,1.0,solid,54
+11,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,55
+12,0,FLOWER,,,,,,,,#E6A8D7,1.0,solid,56
+12,1,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,2,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,3,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,4,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,5,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,6,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,7,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,8,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,9,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,10,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,11,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,12,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,13,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,14,EMPTY,,,,,,,,#F2F2F2,1.0,solid,57
+12,15,FLOWER,,,,,,,,#E6A8D7,1.0,solid,58

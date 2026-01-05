@@ -451,9 +451,9 @@ def parse_args() -> argparse.Namespace:
         help="Only retry rows marked as failed.",
     )
     parser.add_argument(
-        "--only-new",
+        "--all",
         action="store_true",
-        help="Only process rows with no scrape_status or scrape_status != 'success'.",
+        help="Re-scrape all rows, including those already successfully scraped.",
     )
     parser.add_argument(
         "--batch-size",
@@ -477,7 +477,7 @@ def main() -> None:
         output_path=args.output,
         use_cache=args.use_cache,
         retry_failed_only=args.retry_failed,
-        only_new=args.only_new,
+        only_new=not args.all,  # Default to only_new=True unless --all is specified
         batch_size=args.batch_size,
         batch_delay=args.batch_delay,
     )

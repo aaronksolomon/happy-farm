@@ -1,0 +1,26 @@
+bed_id,start_ft,length_ft,status,crop,variety,wave_id,plant_date,notes
+1,5,35,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,2026-02-14,Salad succession engine - high water
+1,40,5,BENEFICIAL,,,,,Center beneficial strip
+1,45,30,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,2026-02-14,Baby lettuce mix
+2,5,30,CROP,Arugula,Wild Arugula,Arugula:Wild Arugula:2026-02-14,2026-02-14,Anchor green - isolated to prevent spread
+2,35,5,BENEFICIAL,,,,,Center beneficial strip
+2,40,30,CROP,Greens Mixes,Ovation Greens Mix,Greens Mixes:Ovation Greens Mix:2026-02-14,2026-02-14,Overflow greens
+3,5,30,CROP,Lettuce (Mixed),Allstar Gourmet Mix,Lettuce (Mixed):Allstar Gourmet Mix:2026-02-14,2026-02-14,Overflow lettuce
+3,35,5,BENEFICIAL,,,,,Center beneficial strip
+3,40,5,CROP,Spinach,Corvair,Spinach:Corvair:2026-02-14,2026-02-14,Spice strip component
+3,45,5,CROP,Chicory,Gourmet Blend,Chicory:Gourmet Blend:2026-02-14,2026-02-14,Spice strip component
+3,50,5,CROP,Mustard Greens,Wasabina,Mustard Greens:Wasabina:2026-02-14,2026-02-14,Spice strip component
+3,55,5,CROP,Radishes,Sora,Radishes:Sora:2026-02-14,2026-02-14,Spice strip component
+4,5,15,CROP,Broccoli,Belstar F1,Broccoli:Belstar F1:2026-02-14,2026-02-14,Brassica block - nettable bed
+4,20,25,CROP,Broccoli,Happy Rich F1,Broccoli:Happy Rich F1:2026-02-21,2026-02-21,Brassica block - offset 7 days
+4,45,15,CROP,Cauliflower,Earlisnow F1,Cauliflower:Earlisnow F1:2026-02-14,2026-02-14,Brassica block
+4,60,15,CROP,Cauliflower,Tessaury F1,Cauliflower:Tessaury F1:2026-02-24,2026-02-24,Brassica block - offset 10 days
+5,5,15,CROP,Chinese Cabbage,Bilko F1 Chinese Cabbage,Chinese Cabbage:Bilko F1 Chinese Cabbage:2026-02-14,2026-02-14,Brassica conveyor belt
+5,20,10,CROP,Pak Choi,Black Summer F1,Pak Choi:Black Summer F1:2026-02-14,2026-02-14,Brassica conveyor belt
+5,30,10,CROP,Cabbage,Bronco F1,Cabbage:Bronco F1:2026-02-14,2026-02-14,Brassica conveyor belt
+6,5,10,CROP,Carrots,Bengala F1,Carrots:Bengala F1:2026-02-14,2026-02-14,Roots block - steady moisture
+6,15,10,CROP,Carrots,Bolero F1,Carrots:Bolero F1:2026-02-21,2026-02-21,Roots block - offset 7 days
+6,25,10,CROP,Lettuce (Single),Sunland,Lettuce (Single):Sunland:2026-02-14,2026-02-14,Romaine heads with roots
+6,35,5,BENEFICIAL,,,,,Center beneficial strip
+6,40,15,CROP,Beets,Boldor,Beets:Boldor:2026-02-14,2026-02-14,Beet block
+6,55,15,CROP,Beets,Boro F1,Beets:Boro F1:2026-02-19,2026-02-19,Beet block - offset 5 days
