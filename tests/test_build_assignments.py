@@ -15,7 +15,7 @@ def _write_schedule(path: Path) -> None:
     path.write_text(
         "# schema_version: 1\n"
         "crop,variety,method,water,plant_date,first_harvest_date,target_lbs_week,row_feet,"
-        "succession_days,notes,url,avg_yield_per_plant,plants_per_linear_foot,plants_count\n"
+        "succession_days,notes,url,avg_yield_per_plant,plants_per_linear_foot,plant_count_or_sqft\n"
         "Carrot,Bolero,direct_sow,medium,2026-02-21,2026-05-07,15,10,21,Note,http://x,0.25,6.0,66\n",
         encoding="utf-8",
     )
