@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run python
 """
 Add harvest-related columns to vegetable data CSV with data type descriptions.
 Creates a new file preserving the original.
