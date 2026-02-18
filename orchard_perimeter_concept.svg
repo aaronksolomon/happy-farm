@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1400" viewBox="0 0 1400 1400">
+  <defs>
+    <style>
+      text {
+        font-family: "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #333333;
+      }
+      .title { font-size: 20px; }
+      .label { font-size: 12px; }
+      .small { font-size: 12.1px; }
+      .tree-label { font-size: 11px; }
+      .on-color { fill: #111111; }
+      .legend-label { font-size: 13.2px; }
+      .legend-small { font-size: 13.31px; }
+      .grid-line { stroke: #e0e0e0; stroke-width: 0.5; }
+      .grid-major { stroke: #a0a0a0; stroke-width: 1; }
+    </style>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="none" class="grid-line" />
+    </pattern>
+    <pattern id="grid-major" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#grid)" class="grid-major" />
+    </pattern>
+    <pattern id="eucalyptus-hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#7a8f7a" stroke-width="2" />
+    </pattern>
+    <marker id="arrow-end" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#666" />
+    </marker>
+    <marker id="arrow-start" markerWidth="8" markerHeight="8" refX="0" refY="4" orient="auto">
+      <path d="M8,0 L0,4 L8,8 Z" fill="#666" />
+    </marker>
+  </defs>
+
+  <!-- White background -->
+  <rect x="0" y="0" width="1400" height="1400" fill="#ffffff" />
+
+  <!-- Grid background (1 square = 5 ft) -->
+  <rect x="40" y="40" width="1320" height="1320" fill="url(#grid-major)" stroke="#666" stroke-width="2" />
+
+  <!-- Title and scale -->
+  <text x="60" y="80" class="title">Perimeter Orchard Layout</text>
+  <text x="60" y="104" class="small">Scale: 1 grid square = 5 ft x 5 ft</text>
+
+  <!-- Roadway (runs N-S) -->
+  <!-- Road width: 20 ft (80px) -->
+  <rect x="200" y="120" width="80" height="1180" fill="#e0e0e0" stroke="#999" stroke-width="2" />
+  <text x="240" y="140" class="label on-color" text-anchor="middle">Roadway</text>
+
+  <!-- Fence line (N-S), 1 ft east of roadway east edge -->
+  <line x1="288" y1="120" x2="288" y2="1300" stroke="#000000" stroke-width="3" />
+
+  <!-- Tree line (N-S) between roadway and garden -->
+  <!-- Tree line is 8 ft east of roadway edge (32px) -->
+  <line x1="312" y1="80" x2="312" y2="1340" stroke="#8b4513" stroke-width="2" stroke-dasharray="8 4" />
+
+  <!-- Eucalyptus stumps and current growth (between fence and tree line) -->
+  <rect x="288" y="960" width="24" height="80" fill="#9bb89b" fill-opacity="0.25" />
+  <rect x="288" y="960" width="24" height="80" fill="url(#eucalyptus-hatch)" fill-opacity="0.4" />
+  <rect x="288" y="890" width="24" height="20" fill="#7fa87f" fill-opacity="0.35" />
+  <rect x="288" y="890" width="24" height="20" fill="url(#eucalyptus-hatch)" fill-opacity="0.4" />
+
+  <!-- Garden area -->
+  <!-- Garden west edge is 21 ft east of roadway east edge -->
+  <!-- Garden size: 100 ft E-W (400px) x 290 ft N-S (1160px) -->
+  <rect x="372" y="584" width="400" height="616" fill="#2d5016" fill-opacity="0.6" stroke="#2d5016" stroke-width="4" stroke-dasharray="10 5" />
+  <text x="572" y="892" class="label on-color" text-anchor="middle">GARDEN</text>
+  <!-- Tree spacing legend (south to north) -->
+  <g transform="translate(380, 140)">
+    <text x="0" y="0" class="legend-label">Tree Spacing (South to North)</text>
+    <text x="0" y="18" class="legend-small">Anna Apple</text>
+    <text x="0" y="34" class="legend-small">15 ft</text>
+    <text x="0" y="50" class="legend-small">Dorsett Golden Apple</text>
+    <text x="0" y="66" class="legend-small">15 ft</text>
+    <text x="0" y="82" class="legend-small">Pettinghill Apple</text>
+    <text x="0" y="98" class="legend-small">15 ft</text>
+    <text x="0" y="114" class="legend-small">Fuyu Persimmon</text>
+    <text x="0" y="130" class="legend-small">18 ft</text>
+    <text x="0" y="146" class="legend-small">Hood Pear</text>
+    <text x="0" y="162" class="legend-small">15 ft</text>
+    <text x="0" y="178" class="legend-small">Babcock Peach</text>
+    <text x="0" y="194" class="legend-small">15 ft</text>
+    <text x="0" y="210" class="legend-small">Eva's Pride Peach</text>
+    <text x="0" y="226" class="legend-small">15 ft</text>
+    <text x="0" y="242" class="legend-small">Snow Queen Nectarine</text>
+    <text x="0" y="258" class="legend-small">18 ft</text>
+    <text x="0" y="274" class="legend-small">Royal Crimson Cherry</text>
+    <text x="0" y="290" class="legend-small">18 ft</text>
+    <text x="0" y="306" class="legend-small">Beauty Plum</text>
+    <text x="0" y="322" class="legend-small">20 ft</text>
+    <text x="0" y="338" class="legend-small">Gold Kist Apricot</text>
+  </g>
+
+  <!-- 21 ft gap annotation (E-W) -->
+  <line x1="280" y1="620" x2="372" y2="620" stroke="#666" stroke-width="1.5" stroke-dasharray="4 3" marker-start="url(#arrow-start)" marker-end="url(#arrow-end)" />
+  <line x1="280" y1="612" x2="280" y2="628" stroke="#666" stroke-width="1.5" />
+  <line x1="372" y1="612" x2="372" y2="628" stroke="#666" stroke-width="1.5" />
+  <text x="326" y="606" class="small">23 ft</text>
+
+  <!-- Fruit trees along the tree line -->
+  <!-- Spacing (south to north): 15, 15, 15, 18, 15, 15, 15, 18, 18, 20 ft -->
+  <circle cx="312" cy="1230" r="12" fill="#cc3333" stroke="#333" stroke-width="2" />
+  <text x="332" y="1226" class="tree-label">
+    <tspan x="332" dy="0">Anna</tspan>
+    <tspan x="332" dy="12">Apple</tspan>
+  </text>
+
+  <circle cx="312" cy="1170" r="12" fill="#cc3333" stroke="#333" stroke-width="2" />
+  <text x="332" y="1166" class="tree-label">
+    <tspan x="332" dy="0">Dorsett Golden</tspan>
+    <tspan x="332" dy="12">Apple</tspan>
+  </text>
+
+  <circle cx="312" cy="1110" r="12" fill="#cc3333" stroke="#333" stroke-width="2" />
+  <text x="332" y="1106" class="tree-label">
+    <tspan x="332" dy="0">Pettinghill</tspan>
+    <tspan x="332" dy="12">Apple</tspan>
+  </text>
+
+  <circle cx="312" cy="1050" r="12" fill="#ff8c00" stroke="#333" stroke-width="2" />
+  <text x="332" y="1046" class="tree-label">
+    <tspan x="332" dy="0">Fuyu</tspan>
+    <tspan x="332" dy="12">Persimmon</tspan>
+  </text>
+
+  <circle cx="312" cy="978" r="12" fill="#9acd32" stroke="#333" stroke-width="2" />
+  <text x="332" y="974" class="tree-label">
+    <tspan x="332" dy="0">Hood</tspan>
+    <tspan x="332" dy="12">Pear</tspan>
+  </text>
+
+  <circle cx="312" cy="918" r="12" fill="#ffb347" stroke="#333" stroke-width="2" />
+  <text x="332" y="914" class="tree-label">
+    <tspan x="332" dy="0">Babcock</tspan>
+    <tspan x="332" dy="12">Peach</tspan>
+  </text>
+
+  <circle cx="312" cy="858" r="12" fill="#ffb347" stroke="#333" stroke-width="2" />
+  <text x="332" y="854" class="tree-label">
+    <tspan x="332" dy="0">Eva's Pride</tspan>
+    <tspan x="332" dy="12">Peach</tspan>
+  </text>
+
+  <circle cx="312" cy="798" r="12" fill="#ffa07a" stroke="#333" stroke-width="2" />
+  <text x="332" y="794" class="tree-label">
+    <tspan x="332" dy="0">Snow Queen</tspan>
+    <tspan x="332" dy="12">Nectarine</tspan>
+  </text>
+
+  <circle cx="312" cy="726" r="12" fill="#de3163" stroke="#333" stroke-width="2" />
+  <text x="332" y="722" class="tree-label">
+    <tspan x="332" dy="0">Royal Crimson</tspan>
+    <tspan x="332" dy="12">Cherry</tspan>
+  </text>
+
+  <circle cx="312" cy="654" r="12" fill="#8e4585" stroke="#333" stroke-width="2" />
+  <text x="332" y="650" class="tree-label">
+    <tspan x="332" dy="0">Beauty</tspan>
+    <tspan x="332" dy="12">Plum</tspan>
+  </text>
+
+  <circle cx="312" cy="574" r="12" fill="#fbceb1" stroke="#333" stroke-width="2" />
+  <text x="332" y="570" class="tree-label">
+    <tspan x="332" dy="0">Gold Kist</tspan>
+    <tspan x="332" dy="12">Apricot</tspan>
+  </text>
+
+  <!-- Key measurements -->
+  <g transform="translate(580, 140)">
+    <text x="0" y="0" class="legend-label">Key Measurements</text>
+    <text x="0" y="18" class="legend-small">- Grid: 5 ft per square</text>
+    <text x="0" y="36" class="legend-small">- Roadway width: 20 ft</text>
+    <text x="0" y="54" class="legend-small">- Roadway to garden gap: 23 ft</text>
+    <text x="0" y="72" class="legend-small">- Fence: 2 ft east of roadway edge</text>
+    <text x="0" y="90" class="legend-small">- Tree line: 8 ft east of roadway edge</text>
+    <text x="0" y="108" class="legend-small">- Garden: 154 ft (N-S) x 100 ft (E-W)</text>
+    <text x="0" y="126" class="legend-small">- Tree spacing: 15-20 ft variable</text>
+  </g>
+</svg>
