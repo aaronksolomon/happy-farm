@@ -1,8 +1,9 @@
 #!/usr/bin/env -S uv run python
 """Generate seedlings order from succession schedule.
 
-Filters succession schedule for transplants only and outputs a simplified
-order sheet for nursery ordering.
+Processes succession schedule and outputs an order sheet. Transplants get
+flat quantities rounded to nursery tray sizes; direct sow crops use target
+values directly.
 """
 from __future__ import annotations
 
@@ -10,40 +11,6 @@ import argparse
 import csv
 from datetime import datetime, timedelta
 from pathlib import Path
-
-
-# Available plug flat sizes (half and full trays of 50 and 72 cell flats)
-FLAT_SIZES = [25, 36, 50, 72]
-
-
-def round_to_flat_quantity(target: int) -> int:
-    """Round up target quantity to nearest available flat size.
-
-    For quantities larger than 72, use multiples of flat sizes.
-    """
-    if target <= 0:
-        return FLAT_SIZES[0]
-
-    # For small quantities, find the smallest flat that fits
-    for size in FLAT_SIZES:
-        if target <= size:
-            return size
-
-    # For larger quantities, find best combination
-    # Use largest flat (72) as base, then add smallest flat that covers remainder
-    full_flats = target // 72
-    remainder = target % 72
-
-    if remainder == 0:
-        return full_flats * 72
-
-    # Find smallest flat that covers the remainder
-    for size in FLAT_SIZES:
-        if remainder <= size:
-            return (full_flats * 72) + size
-
-    # If remainder > 72 (shouldn't happen), add another full flat
-    return (full_flats + 1) * 72
 
 
 def generate_seedlings_order(
@@ -57,57 +24,38 @@ def generate_seedlings_order(
         reader = csv.DictReader(f)
         schedule = list(reader)
 
-    # Filter for transplants only
-    transplants = [row for row in schedule if row['method'] == 'transplant']
-
-    if not transplants:
-        print("No transplants found in schedule")
+    if not schedule:
+        print("No planting events found in schedule")
         return
-
-    # Loss rates (must match calculate_succession_planting.py)
-    GERMINATION_RATE = 0.95
-    FIELD_SURVIVAL_RATE = 0.95
 
     # Build output rows with simplified columns for ordering
     order_rows = []
-    for row in transplants:
-        target_quantity = int(row['plant_count_or_sqft'])
-        flat_quantity = round_to_flat_quantity(target_quantity)
+    for row in schedule:
+        target_quantity = int(float(row['plant_count_or_sqft']))
+        is_transplant = row['method'] == 'transplant'
 
         plant_date_str = row['plant_date']
         seed_date = ''
-        try:
-            plant_date = datetime.strptime(plant_date_str, '%Y-%m-%d')
-            seed_date = (plant_date - timedelta(days=28)).strftime('%Y-%m-%d')
-        except ValueError:
-            seed_date = ''
-
-        # Calculate expected lbs/week based on flat_quantity (what we'll actually plant)
-        avg_yield = float(row['avg_yield_per_plant'])
-        harvest_weeks = float(row['harvest_weeks_per_planting'])
-        surviving_plants = flat_quantity * GERMINATION_RATE * FIELD_SURVIVAL_RATE
-        expected_lbs_week = round(surviving_plants * avg_yield / harvest_weeks, 1)
-
-        plants_per_linear_foot = row.get('plants_per_linear_foot', '')
-        if plants_per_linear_foot and plants_per_linear_foot != '':
+        if is_transplant:
             try:
-                plants_per_linear_foot_val = float(plants_per_linear_foot)
+                plant_date = datetime.strptime(plant_date_str, '%Y-%m-%d')
+                seed_date = (plant_date - timedelta(days=28)).strftime('%Y-%m-%d')
             except ValueError:
-                plants_per_linear_foot_val = 0
-        else:
-            plants_per_linear_foot_val = 0
+                seed_date = ''
 
         target_row_feet = row.get('row_feet', '')
-        actual_row_feet = ''
-        if plants_per_linear_foot_val > 0:
-            actual_row_feet = round(surviving_plants / plants_per_linear_foot_val, 1)
+
+        # Read pre-computed values from succession schedule
+        flat_quantity_str = row.get('flat_quantity', '')
+        expected_lbs_week = row.get('expected_lbs_week', '')
+        actual_row_feet = row.get('expected_row_feet', '')
 
         order_rows.append({
             'plant_name': row['crop'],
             'variety': row['variety'],
             'url': row['url'],
             'target_quantity': target_quantity,
-            'flat_quantity': flat_quantity,
+            'flat_quantity': flat_quantity_str,
             'target_row_feet': target_row_feet,
             'actual_row_feet': actual_row_feet,
             'target_lbs_week': row['target_lbs_week'],
@@ -139,7 +87,9 @@ def generate_seedlings_order(
         writer.writeheader()
         writer.writerows(order_rows)
 
-    print(f"Generated seedlings order with {len(order_rows)} transplants")
+    transplant_count = sum(1 for r in order_rows if r['flat_quantity'] != 'N/A')
+    direct_sow_count = len(order_rows) - transplant_count
+    print(f"Generated order with {transplant_count} transplants, {direct_sow_count} direct sow")
     print(f"Saved to {output_path}")
 
 

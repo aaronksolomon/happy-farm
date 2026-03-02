@@ -24,6 +24,21 @@ BED_WIDTH_FEET = 30 / 12  # 2.5 feet
 INITIAL_PLANTING_DATE = datetime(2026, 2, 28)  # Feb 28, 2026
 NUM_SUCCESSION_WAVES = 1  # Generate only 1 initial planting for now
 
+# Tray sizes from Sage Hill nursery (64 = half tray, 128 = full tray)
+TRAY_UNIT = 64
+
+
+def round_to_tray_quantity(target: int) -> int:
+    """Round target quantity to nearest multiple of 64 (half tray).
+
+    Sage Hill produces 64 (half tray) or 128 (full tray).
+    Any multiple of 64 is valid. Minimum order is 64.
+    """
+    if target <= 0:
+        return TRAY_UNIT
+    rounded = round(target / TRAY_UNIT) * TRAY_UNIT
+    return max(TRAY_UNIT, rounded)
+
 # Plant type categories for grouping (used instead of botanical name)
 PLANT_TYPE_MAPPING = {
     # Head lettuce and romaine
@@ -330,6 +345,23 @@ def calculate_succession_schedule(
                 except ValueError:
                     in_row_spacing_ft = ''
 
+            # Calculate expected values after tray rounding (transplants only)
+            if is_transplant and not yield_is_sqft:
+                flat_quantity = round_to_tray_quantity(plant_count_or_sqft)
+                surviving_plants = flat_quantity * GERMINATION_RATE * FIELD_SURVIVAL_RATE
+                expected_lbs_week = round(
+                    surviving_plants * avg_yield_per_plant / harvest_weeks_per_planting, 1
+                )
+                if plants_per_linear_foot and plants_per_linear_foot > 0:
+                    expected_row_feet = round(surviving_plants / plants_per_linear_foot, 1)
+                else:
+                    expected_row_feet = ''
+            else:
+                # Direct sow or sqft-based: no tray rounding, expected = target
+                flat_quantity = '-'
+                expected_lbs_week = target_lbs_week
+                expected_row_feet = row_feet
+
             schedule.append({
                 'plant_type': plant_type,
                 'crop': crop,
@@ -342,12 +374,15 @@ def calculate_succession_schedule(
                 'target_lbs_week': target_lbs_week,
                 'plant_count_or_sqft': plant_count_or_sqft,
                 'row_feet': row_feet,
+                'flat_quantity': flat_quantity,
+                'expected_lbs_week': expected_lbs_week,
+                'expected_row_feet': expected_row_feet,
                 'succession_days': succession_days,
                 'harvest_weeks_per_planting': round(harvest_weeks_per_planting, 2),
                 'notes': config_row.get('notes', ''),
                 'url': plant_row.get('url', ''),
                 'avg_yield_per_plant': round(avg_yield_per_plant, 3),
-                'plants_per_linear_foot': round(plants_per_linear_foot, 2) if plants_per_linear_foot else '',
+                'plants_per_linear_foot': round(plants_per_linear_foot, 2) if plants_per_linear_foot else '-',
                 'planting_pattern': plant_row.get('rows/pattern', ''),
                 'in_row_spacing_ft': in_row_spacing_ft,
             })
@@ -360,8 +395,9 @@ def calculate_succession_schedule(
     if schedule:
         fieldnames = [
             'plant_type', 'crop', 'variety', 'method', 'water', 'plant_date',
-            'wave_seq', 'first_harvest_date', 'target_lbs_week', 'plant_count_or_sqft',
-            'row_feet',
+            'flat_quantity', 'wave_seq', 'first_harvest_date',
+            'target_lbs_week', 'expected_lbs_week',
+            'plant_count_or_sqft', 'row_feet', 'expected_row_feet',
             'succession_days', 'harvest_weeks_per_planting', 'notes', 'url',
             'avg_yield_per_plant', 'plants_per_linear_foot', 'planting_pattern',
             'in_row_spacing_ft'
