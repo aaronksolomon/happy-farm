@@ -2,7 +2,7 @@
 
 ## SEED RESEARCH
 
-[ ] Potatoes / sweet potatoes
-[ ] Onions
+[x] Potatoes / sweet potatoes
+[x] Onions
 [x] Tomato varieties
 [x] Herbs
