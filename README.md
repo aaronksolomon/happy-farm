@@ -49,6 +49,10 @@ mkdir -p data/{seeds,schedules,analytics}
 mkdir -p scripts notebooks exports
 ```
 
+The canonical interpreter for this workspace is `.venv/bin/python`, created and
+managed by `uv sync`. In VS Code, keep the selected interpreter on the
+workspace `.venv` so Jupyter notebooks and Data Wrangler use the same runtime.
+
 ## Example Usage
 
 Run Python scripts and notebooks using `uv run`:
@@ -90,7 +94,7 @@ df.to_excel('exports/tomato_varieties_2025.xlsx', index=False)
 
 ## Documentation
 
-- [ADR01: Workspace Architecture](docs/adr01-workspace-architecture.md) - Full rationale and design decisions
+- [ADR01: Workspace Architecture](docs/adr/adr01-workspace-architecture.md) - Full rationale and design decisions
 - [ADR02: Plant Data Web Scraping Architecture](docs/adr/adr02-plant-data-web-scraping.md) - Hybrid SDSC/JS scraping plan
 
 ## Plant Data Scraping

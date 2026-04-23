@@ -24,12 +24,16 @@ wheels/
 *.egg
 
 # Virtual environments
+.venv/
+.direnv/
 venv/
 ENV/
 env/
 
 # IDE
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 .idea/
 *.swp
 *.swo
@@ -48,6 +52,7 @@ env/
 # Environment variables
 .env
 .env.local
+.envrc.local
 
 # Jupyter Notebook
 .ipynb_checkpoints

@@ -146,15 +146,20 @@ mkdir -p data/{seeds,schedules,analytics}
 mkdir -p scripts notebooks exports
 
 # Python environment
-python -m venv venv
-source venv/bin/activate  # or `venv\Scripts\activate` on Windows
-pip install pandas openpyxl jupyter matplotlib seaborn
+uv sync
+
+# Run commands inside the project environment
+uv run python
+uv run jupyter notebook
 
 # Optional: VS Code extensions
 # - Jupyter
 # - Python
 # - Data Wrangler (pandas DataFrame viewer)
 ```
+
+In VS Code, point the workspace interpreter to `.venv/bin/python` so notebooks,
+the Jupyter extension, and Data Wrangler resolve the same environment.
 
 ## Addendum (2026-01-03) - Dependency Policy
 
